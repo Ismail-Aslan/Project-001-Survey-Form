@@ -8,11 +8,12 @@ https://www.figma.com/file/HXULRJVkPlaCpxQlbm82bX/Project001?node-id=6%3A4
 
 # Project Skeleton
 001-survey-form (folder)
-|
-|----readme.md         # Given to the students (Definition of the project)
-|----solution
-        |----index.html
-        |----style.css
-        |----result.html
-        |----images
-                |---- netflix-background-image.jpg
+
+ |
+ |----readme.md         # Given to the students (Definition of the project)
+ |----solution
+         |----index.html
+         |----style.css
+         |----result.html
+         |----images
+                 |---- netflix-background-image.jpg
