@@ -1,0 +1,8 @@
+body {
+    background-image: url("./images/netflix-background-image.jpg");
+    color: white;
+}
+#container {
+    margin: auto;
+    background-color: rgba(0, 0,0,0.7);
+}
