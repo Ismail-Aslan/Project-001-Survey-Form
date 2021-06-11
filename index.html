@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -16,15 +17,15 @@
         <form action="result.html" >
             <div class="box">
                 <label for="name">Name</label><br>
-                <input type="text" name="Name" id="name" placeholder="Enter your name">
+                <input type="text" name="Name" id="name" placeholder="Enter your name" required>
             </div>
             <div class="box">
                 <label for="age">Age</label><br>
-                <input type="text" name="Age" id="age" placeholder="Age">
+                <input type="number" name="Age" id="age" placeholder="Age" required>
             </div>
             <div class="box">
                 <label for="Email">Email</label><br>
-                <input type="email" name="Email" id="Email" placeholder="Enter your email">
+                <input type="email" name="Email" id="Email" placeholder="Enter your email" required>
             </div>
             <div class="box">
                 <label for="dropdown">Content type</label><br>
@@ -53,10 +54,13 @@
                 <label for="radio3">Other</label><br>
             </div>
             <div class="box">
-                <label>Feedback</label><br>
-                <textarea name="Feedback" id="Textarea" cols="30" rows="10" placeholder="Any comment..."></textarea>
+                <label id="feedback">Feedback</label><br>
+                <textarea name="Feedback" id="Textarea" cols="57" rows="5" placeholder="Any comment..."></textarea>
             </div>
-            <input type="submit" value="Submit">
+            <div class="box">
+                <input type="submit" value="Submit" id="submit" >
+            </div>
+            
         </form>
     </div id="container">
 </body>
