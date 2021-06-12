@@ -1,0 +1,58 @@
+/* browserların DEFAULT özelliklerini istediğimiz gibi ayarlamak için * kullanılıyor*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*index2.html de oluşturduumuz containerı hemen css ile düzenliyoruz*/
+
+#form-container {
+    max-width: 1240px;
+    /*responsive olması için "max" koyduk*/
+    height: 1036px;
+    /* formun yüksekliği olacağı için statik bir yükseklik vermek mantıklı*/
+    margin: auto;
+    /*contaier ı body içerisinde ortaladık*/
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#form-title {
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 3.125rem;
+    /*responsive design için fontlarla px kullanılmamalı onun yerine 
+    "rem(browserlardaki defoult değer 1 rem'dir)" kullanıyoruz
+    
+    3.125rem = 50px for chrome*/
+    letter-spacing: 0.05em;
+}
+
+span {
+    color: red;
+}
+
+#form-desciription {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.4rem;
+}
+
+#form-header {
+    text-align: center;
+}
+
+#survey-form-container {
+    max-width: 500px;
+    height: 897px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: auto;
+    padding: 10px;
+}
+
+#survey-form {
+    max-width: 460px;
+    margin: auto;
+    font-size: 1rem;
+
+}
