@@ -4,13 +4,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+body{
+    color: white;
+    background-image: url(./images/netflix-background-image.jpg);
+}
 /*index2.html de oluşturduumuz containerı hemen css ile düzenliyoruz*/
-
 #form-container {
     max-width: 1240px;
     /*responsive olması için "max" koyduk*/
-    height: 1036px;
+   /*height: 1036px;*/
     /* formun yüksekliği olacağı için statik bir yükseklik vermek mantıklı*/
     margin: auto;
     /*contaier ı body içerisinde ortaladık*/
@@ -44,10 +46,9 @@ span {
 
 #survey-form-container {
     max-width: 500px;
-    height: 897px;
     background-color: rgba(0, 0, 0, 0.8);
     margin: auto;
-    padding: 10px;
+    padding: 10px 10px;
 }
 
 #survey-form {
@@ -55,4 +56,35 @@ span {
     margin: auto;
     font-size: 1rem;
 
+}
+
+#name,
+#age,
+#email,
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+.input-box{
+    margin-top: 20px;
+}
+
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+#form-submit{
+    margin: auto;/*elementin genişliği olmazsa ortalamaz*/
+    width: fit-content;
+    margin-top: 15px;
 }
